@@ -1,0 +1,31 @@
+name: 提需求
+description: 想要的新功能或改进
+title: "[需求] "
+labels: ["需求"]
+body:
+  - type: markdown
+    attributes:
+      value: Issue 是公开的，请不要填写 VIN、车牌、手机号、账号、停车位置等个人信息。
+  - type: textarea
+    id: want
+    attributes:
+      label: 想要什么
+      description: 想做到什么事，现在哪里不方便
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: 车型
+      placeholder: 例如 C16 增程
+  - type: input
+    id: version
+    attributes:
+      label: App 版本
+      description: 在「我的」页底部可以看到
+      placeholder: 例如 5.0.0-share
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充
+      description: 参考截图、其他 App 的做法等

@@ -1,0 +1,48 @@
+name: 报 Bug
+description: 显示不对、功能失效、闪退等问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Issue 是公开的，请不要填写 VIN、车牌、手机号、账号、停车位置等个人信息，截图请先打码。
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 做了什么操作，看到了什么，本来应该是什么样
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: 车型
+      placeholder: 例如 C16 增程、B10 纯电
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App 版本
+      description: 在「我的」页底部可以看到
+      placeholder: 例如 5.0.0-share
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: 手机型号与系统
+      placeholder: 例如 小米 14 / HyperOS 2；折叠屏请写明内屏还是外屏
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: 出现频率
+      options:
+        - 每次都出现
+        - 偶尔出现
+        - 只出现过一次
+  - type: textarea
+    id: shots
+    attributes:
+      label: 截图或录屏
+      description: 直接拖进来；请先打码个人信息
