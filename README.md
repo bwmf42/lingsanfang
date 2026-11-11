@@ -2,8 +2,8 @@
 
 零跑车主自用的第三方远程车控 App。这个仓库只用来收集**需求**和 **Bug**，不放源码，也不提供下载。
 
-- [提需求](../../issues/new?template=feature.yml)
-- [报 Bug](../../issues/new?template=bug.yml)
+- [提需求](https://github.com/bwmf42/lingsanfang/issues/new?template=feature.yml)
+- [报 Bug](https://github.com/bwmf42/lingsanfang/issues/new?template=bug.yml)
 
 ## 说明
 
