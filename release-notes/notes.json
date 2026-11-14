@@ -1,0 +1,24 @@
+{
+  "version": "5.6.0",
+  "groups": [
+    {
+      "title": "小组件",
+      "items": [
+        { "text": "新增 2×2 车控按钮小组件：四个可自定义按钮，图标深色为开启、浅色为关闭", "image": "widget-square.webp" },
+        { "text": "4×2 小组件换新布局，新增 4×3 小组件", "image": "widget-large.webp" }
+      ]
+    },
+    {
+      "title": "控车",
+      "items": [
+        { "text": "等待车辆确认的时间加长，不再过早提示「车辆没有确认」" }
+      ]
+    },
+    {
+      "title": "其他",
+      "items": [
+        { "text": "更新说明按分组显示，新功能附示意图", "image": "update-dialog.webp" }
+      ]
+    }
+  ]
+}
